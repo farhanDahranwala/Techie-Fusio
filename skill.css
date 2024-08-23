@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#nextpage{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 50px;
+}
+
+.skl{
+    font-size: 60px;
+    text-align: center;
+    color: #009688;
+    margin-top: -10px;
+
+}
+#first{
+   top: 40px;
+   
+}
+.para1{
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 20px;
+    
+}
+.second h2{
+    font-size: 50px;
+    color: #009688;
+    text-align: center;
+    
+}
+.st{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.container{
+    margin: auto;
+    width: 90%;
+
+    
+}
+.paragraph{
+    overflow: hidden;
+    margin-bottom: 40px;
+
+}
+.paragraph h3{
+    font-size: 40px;
+    
+}
+.paragraph{
+    font-size: 20px;
+    
+    text-align: justify;
+
+
+}
+.paragraph img{
+    float: right;
+    
+    border-radius: 8px;
+    max-width: 200px;
+    margin-left: 25px;
+    margin-top: -10px;
+}
+
+html body{
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 600px){
+    #back{
+        height: 40px;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+       
+    .skl{
+        font-size: 50px;
+    
+    }
+    .second h2{
+        font-size: 40px;
+       
+    }
+
+
+
+}
+
+
+@media screen and (min-width: 600px) {
+    #back{
+        height: 50px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .skl{
+        font-size: 60px;
+    
+    }
+    .second h2{
+        font-size: 50px;
+       
+    }
+
+
+
+}
